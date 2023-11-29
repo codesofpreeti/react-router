@@ -1,8 +1,19 @@
-# React + Vite
+#This is my total learning of react router 
+yay yyayyyy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+So, we technically make single page applications in React,
+but traditionally websites does not involves just a single page in applications, on each click it would send a fresh request to a server, which paints the entire dom as new and shows up a brand new html page.
 
-Currently, two official plugins are available:
+but react was not designed to work this way. it's supposed to be SPA (Single Page Application).
+SPAs handle all the routing on the front end of the browser and not send any additional request to the server,that's where the react router is needed, cuz react does not come fully loaded with routing mechanism.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+so we make use of additional library which is called react-router-dom, which allows us to easily handle routing in the browser.
+The way it works is, when we click to a different link in a website, the react router intercepts that request and stops it reaching the server, instead it swaps the page content depending on whatever page we requested, WHERE EACH PAGE IS JUST A REACT COMPONENT.
+and this is all very fast process cuz it is handled on the front end in the browser.
+
+get started with:
+npm i react-router-dom
+
+import BrowserRouter, Routes, Route in the app,
+wrap the content that requires routing with BrowserRouter, 
+then, Routes and Route
