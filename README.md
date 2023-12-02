@@ -1,4 +1,4 @@
-#This is my total learning of react router 
+#This is my learning of react router 
 yay yyayyyy
 
 So, we technically make single page applications in React,
@@ -16,4 +16,11 @@ npm i react-router-dom
 
 import BrowserRouter, Routes, Route in the app,
 wrap the content that requires routing with BrowserRouter, 
-then, Routes and Route
+then, Routes and Route.
+
+But, using routes AND rout actully reloads the page lol, we need the REACT ROUTER DOM TO INTERCEPT THE REQUEST TO SERVER, so we can use Link or NavLink component for doing this,
+the difference between link and navlink is that, navlink gives an extra attribute called class,which gets active when we click it, which can help us style components differently for the active ones.
+
+v6.4
+using RouterProvider component to wrap instead of BrowserRouter, and we pass a router to browserprovider, which is being created outside of template using createBowserRouter, which take element as createRoutesFromElement.
+Routes component can't be used with createBrowserRouter funtion.

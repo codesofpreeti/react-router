@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header nav a.active{
+    background: greenyellow;
+}
+
+main{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: auto;
+}
+header nav{
+
+}
