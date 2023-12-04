@@ -24,3 +24,5 @@ the difference between link and navlink is that, navlink gives an extra attribut
 v6.4
 using RouterProvider component to wrap instead of BrowserRouter, and we pass a router to browserprovider, which is being created outside of template using createBowserRouter, which take element as createRoutesFromElement.
 Routes component can't be used with createBrowserRouter funtion.
+
+we will use outlet component to render from the routes.

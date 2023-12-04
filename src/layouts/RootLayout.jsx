@@ -11,6 +11,9 @@ const RootLayout = () => {
           <NavLink to="/about">
             <button>About</button>
           </NavLink>
+          <NavLink to="/help">
+            <button>Help</button>
+          </NavLink>
         </nav>
       </header>
       <main>
