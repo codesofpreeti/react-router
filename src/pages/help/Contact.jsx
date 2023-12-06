@@ -5,13 +5,13 @@ const Contact = () => {
         <form>
             <label>
                 <span>Your Email:</span>
-                <input type="email" name="email" required />
-            </label>
+                <input  className="border " type="email" name="email" required />
+            </label><br />
             <label>
                 <span>Your message:</span>
-                <input type="message" required />
-            </label>
-            <button>submit</button>
+                <textarea className="border " type="message" required />
+            </label><br />
+            <button className="border rounded-md bg-slate-200">submit</button>
         </form>
     </div>
   )

@@ -1,7 +1,7 @@
 const FAQ = () => {
   return (
     <div className="faq">
-      <h3>Frequently asked questions</h3>
+      <h3><strong>Frequently asked questions</strong></h3>
       <div className="question">
         <p>
           <strong>
@@ -17,7 +17,7 @@ const FAQ = () => {
           delectus dignissimos beatae labore doloribus obcaecati eveniet
           quisquam ab vel maxime. A?
         </p>
-      </div>
+      </div><br />
       <div className="question">
         <p>
           <strong>
@@ -33,7 +33,7 @@ const FAQ = () => {
           delectus dignissimos beatae labore doloribus obcaecati eveniet
           quisquam ab vel maxime. A?
         </p>
-      </div>
+      </div> <br />
       <div className="question">
         <p>
           <strong>
@@ -49,8 +49,7 @@ const FAQ = () => {
           delectus dignissimos beatae labore doloribus obcaecati eveniet
           quisquam ab vel maxime. A?
         </p>
-      </div>
-      <div className="question">
+      </div> <br />
         <div className="question">
           <p>
             <strong>
@@ -66,7 +65,8 @@ const FAQ = () => {
             praesentium delectus dignissimos beatae labore doloribus obcaecati
             eveniet quisquam ab vel maxime. A?
           </p>
-        </div>{" "}
+        </div><br />
+        <div className="question">
         <p>
           <strong>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,

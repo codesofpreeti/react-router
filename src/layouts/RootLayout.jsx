@@ -3,11 +3,10 @@ const RootLayout = () => {
   return (
     <div className="root-layout">
       <header>
-        <nav className="flex gap-5 p-4">
+        <nav className="flex gap-5 p-4 bg-blue-300 rounded-md">
           <NavLink to="/">
             <button>Home</button>
           </NavLink>
-          <br />
           <NavLink to="/about">
             <button>About</button>
           </NavLink>
