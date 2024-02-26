@@ -1,12 +1,7 @@
 import React from "react";
 import {
   NavLink,
-  Outlet,
-  Route,
-  RouterProvider,
-  Routes,
-  createBrowserRouter,
-  createRoutesFromElements,
+  Outlet
 } from "react-router-dom";
 
 const Navbar = () => {

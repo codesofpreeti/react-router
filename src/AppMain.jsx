@@ -13,7 +13,7 @@ import Navbar from "./pages/Navbar";
 import Help from "./pages/Help";
 import Contact from "./pages/help/Contact"
 import FaQ from "./pages/help/FAQ"
-
+import NotFound from "./pages/NotFound";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Navbar />}>
@@ -23,6 +23,7 @@ const router = createBrowserRouter(
         <Route path="faq" element={<FaQ/>}/>
         <Route path="contact" element={<Contact/>}/>
       </Route>
+      <Route path="*" element={<NotFound/>}/>
     </Route>
   )
 );
