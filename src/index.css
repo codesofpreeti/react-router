@@ -2,13 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-header nav a.active{
-    background: greenyellow;
-    border-radius: 6px;
-    border: 2px solid grey;
-}
-main{
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: auto;
-}

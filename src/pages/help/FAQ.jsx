@@ -1,7 +1,7 @@
 const FAQ = () => {
   return (
     <div className="faq">
-      <h3><strong>Frequently asked questions</strong></h3>
+      <h3>Frequently asked questions:</h3>
       <div className="question">
         <p>
           <strong>

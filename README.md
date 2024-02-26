@@ -18,11 +18,12 @@ import BrowserRouter, Routes, Route in the app,
 wrap the content that requires routing with BrowserRouter, 
 then, Routes and Route.
 
-But, using routes AND rout actully reloads the page lol, we need the REACT ROUTER DOM TO INTERCEPT THE REQUEST TO SERVER, so we can use Link or NavLink component for doing this,
+But, using routes AND route actually reloads the page lol, we need the REACT ROUTER DOM TO INTERCEPT THE REQUEST TO SERVER, so we can use Link or NavLink component for doing this,
+
 the difference between link and navlink is that, navlink gives an extra attribute called class,which gets active when we click it, which can help us style components differently for the active ones.
 
 v6.4
-using RouterProvider component to wrap instead of BrowserRouter, and we pass a router to browserprovider, which is being created outside of template using createBowserRouter, which take element as createRoutesFromElement.
+using RouterProvider component to wrap instead of BrowserRouter, and we pass a router to BrowserProvider, which is being created outside of template using createBowserRouter, which take element as createRoutesFromElements.
 Routes component can't be used with createBrowserRouter funtion.
 
-we will use outlet component to render from the routes.
+We will use outlet component to render from the routes. outLet must be in the parent route element
