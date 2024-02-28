@@ -15,6 +15,7 @@ import Contact from "./pages/help/Contact";
 import FaQ from "./pages/help/FAQ";
 import NotFound from "./pages/NotFound";
 import Careers, { careersLoaders } from "./pages/Careers";
+import CareerDetails, { careerDeetsLoader } from "./pages/CareerDetails";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,7 +27,10 @@ const router = createBrowserRouter(
         <Route path="contact" element={<Contact />} />
       </Route>
       <Route path="*" element={<NotFound />} />
-      <Route path="careers" element={<Careers />} loader={careersLoaders} />
+      <Route path="careers">
+        <Route index element={<Careers />} loader={careersLoaders} />
+        <Route path=":id" element={<CareerDetails />} loader={careerDeetsLoader} />
+      </Route> 
     </Route>
   )
 );
