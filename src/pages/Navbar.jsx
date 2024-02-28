@@ -13,6 +13,7 @@ const Navbar = () => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="help">Help</NavLink>
+          <NavLink to="careers">Careers</NavLink>
         </div>
       </nav>
       <main className="shadow-lg p-4 border m-12">

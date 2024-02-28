@@ -20,10 +20,12 @@ then, Routes and Route.
 
 But, using routes AND route actually reloads the page lol, we need the REACT ROUTER DOM TO INTERCEPT THE REQUEST TO SERVER, so we can use Link or NavLink component for doing this,
 
-the difference between link and navlink is that, navlink gives an extra attribute called class,which gets active when we click it, which can help us style components differently for the active ones.
+the difference between link and NavLink is that, navlink gives an extra attribute called class,which gets active when we click it, which can help us style components differently for the active ones.
 
 v6.4
 using RouterProvider component to wrap instead of BrowserRouter, and we pass a router to BrowserProvider, which is being created outside of template using createBowserRouter, which take element as createRoutesFromElements.
 Routes component can't be used with createBrowserRouter funtion.
 
-We will use outlet component to render from the routes. outLet must be in the parent route element
+We will use OUTLET component to render from the routes. OUTLET must be in the parent route element.
+
+LOADERS: load data into components before it renders
